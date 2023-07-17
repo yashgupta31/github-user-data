@@ -1,0 +1,10 @@
+.card-container{
+    background-color: rgb(252, 194, 5);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-head{
+    font-size: 60px;
+    margin-top: 50px;
+}
