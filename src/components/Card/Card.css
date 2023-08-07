@@ -8,12 +8,14 @@ body{
     height: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     box-shadow: 2px 2px 7px;
     border: 1px solid black;
     border-radius: 5px;
     margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
+
 }
 
 .card:hover{
@@ -26,6 +28,40 @@ body{
     border-radius: 50%;  
 }
 
+#user-name{
+    display: flex;
+    position: relative;
+    bottom: 1rem;
+    
+}
+
+.detail-container{
+    /* background-color: cornflowerblue; */
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 1.5rem;
+}
+
+.Follower,
+.Following{
+    /* background-color: olive; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 3rem;
+    justify-content: space-between;
+}
+
+.Follower > spam:first-child,
+.Following > spam:first-child{
+    background-color: rgb(197, 196, 196);
+    border-radius: 12px;
+    padding: 1.5px 5px;
+}
+
+
 
 .btn{
     /* background-color: rgb(49, 255, 2); */
@@ -34,14 +70,14 @@ body{
     padding: 0.5rem 2rem;
     position: relative;
     bottom: 1.5rem;
-    border-radius: 17px;
+    border-radius: 8px;
     font-weight: bold;
     font-family: sans-serif;
     text-decoration: none;
 }
 
 .btn:hover{
-    background-color: #333333;
+    background-color: #434242;
     /* color: rgb(49, 255, 2); */
     color: white;
     /* border-inline-start: 3px solid black;
